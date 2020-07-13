@@ -1,0 +1,29 @@
+// Background video
+.bgvideo {
+	@include bgcover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+
+	video {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: 0;
+		transform: translate(-50%, -50%);
+		// background-image: url('');
+		background-position: center right;
+
+		@media only screen and (max-width: $mediumdevice) {
+			position: absolute;
+		}
+	}
+}

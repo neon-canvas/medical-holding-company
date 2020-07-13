@@ -1,0 +1,130 @@
+body.single {
+
+	section.content {
+		margin: 190px 0 0;
+		padding: 0;
+
+		@media screen and (max-width: 1200px) {
+			margin: 135px 0 0;
+		}
+
+		.container {
+			max-width: 880px;
+
+			.entry-content {
+				padding: 0 0 50px;
+			}
+
+			h1 {
+				color: $theme-color-one;
+			}
+
+			.post-date,
+			.post-author {
+				font-size: 14px;
+				text-transform: uppercase;
+				margin: 0 0 20px;
+				display: block;
+			}
+
+			.featured-image {
+				margin: 0 0 40px;
+			}
+
+			p {
+				font-size: 23px;
+				line-height: 40px;
+				margin: 0 0 30px;
+			}
+
+			.share-buttons {
+				font-size: 0.7rem;
+				line-height: 0.7rem;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				margin: 0;
+				z-index: 2;
+				position: relative;
+				list-style-type: none;
+				padding: 0;
+			}
+
+			.share-buttons li {
+				display: inline-block;
+				margin: 0 15px 0 0;
+			}
+
+			.share-buttons svg {
+				fill: #fff;
+				width: 19px;
+				height: 19px;
+			}
+
+			.share-googleplus svg {
+				width: 20px;
+				height: 16px;
+			}
+
+			.share-buttons a {
+				display: block;
+				padding: 12px 0;
+				text-align: center;
+
+				&:hover {
+					opacity: .5;
+				}
+			}
+
+			.share-buttons a span {
+				display: none;
+			}
+
+			.share-buttons li:first-child a {
+				border-radius: 3px 0 0 3px;
+			}
+
+			.share-buttons li:last-child a {
+				border-radius: 0 3px 3px 0;
+			}
+
+			.share-twitter svg{
+				fill: #1da1f2;
+			}
+
+			.share-facebook	svg{
+				fill: #3b5998;
+			}
+
+			.share-googleplus svg{
+				fill: #db4437;
+			}
+
+			.share-pinterest svg{
+				fill: #b5071a;
+			}
+
+			.related-posts {
+
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+
+					li {
+						margin: 0 0 30px;
+						text-align: center;
+
+						.post-date {
+							margin: 0;
+						}
+
+						h3 a {
+							font-size: 23px;
+							line-height: 1em;
+						}
+					}
+				}
+			}
+		}
+	}
+}

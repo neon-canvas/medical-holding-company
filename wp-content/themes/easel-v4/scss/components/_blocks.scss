@@ -1,0 +1,126 @@
+.blocks-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+
+	a.cta-block {
+		flex: 0 1 auto;
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 25px;
+		position: relative;
+		overflow: hidden;
+		height: 400px;
+
+		@media screen and (max-width: $mediumdevice) {
+			flex: 0 1 100% !important;
+		}
+
+		&:before {
+			@include trans;
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			background: black;
+			opacity: .5;
+			z-index: 1;
+			top: 0;
+			left: 0;
+		}
+
+		&:hover {
+
+			&:before {
+				opacity: .35;
+			}
+
+			.service-bg {
+				transform: scale(1.075);
+			}
+		}
+
+		.service-bg {
+			@include trans;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-size: cover !important;
+			background-position: top !important;
+		}
+
+		h3 {
+			color: white;
+			font-size: 36px;
+			letter-spacing: 0.5px;
+			position: relative;
+			z-index: 2;
+			text-shadow: 0 0 15px rgba(0,0,0,0.4);
+			margin: 0;
+			position: absolute;
+			left: 50px;
+			bottom: 50px;
+
+			@media screen and (max-width: $mediumdevice) {
+				bottom: 20px;
+				left: 20px;
+			}
+
+			&:after {
+				content: '\f138';
+				font-family: FontAwesome;
+				font-weight: normal;
+				font-style: normal;
+				margin:0px 0px 3px 10px;
+				text-decoration:none;
+				vertical-align: middle;
+				display: inline-block;
+			}
+		}
+
+		&.block-one,
+		&.block-two,
+		&.block-six,
+		&.block-seven {
+			flex: 0 1 49%;
+		}
+
+		&.block-three,
+		&.block-five {
+			flex: 0 1 33.5%;
+		}
+
+		&.block-four {
+			flex: 0 1 29%;
+		}
+
+		&.col-50 {
+			flex: 0 1 49%;
+		}
+
+		&.col-33 {
+			flex: 0 1 32%;
+		}
+
+		&.col-100 {
+			flex: 0 1 100%;
+		}
+	}
+}

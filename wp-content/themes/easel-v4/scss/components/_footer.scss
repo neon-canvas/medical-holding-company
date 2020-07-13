@@ -1,0 +1,147 @@
+footer {
+	padding: 0;
+	position: relative;
+	z-index: 2;
+	background: white;
+
+	.footer-top {
+		background: $theme-color-five;
+		overflow: hidden;
+
+		.consult-cta {
+			padding: 150px 20px;
+
+			@media screen and (max-width: $mediumdevice) {
+				padding: $sectionpadding/3 20px;
+			}
+
+			.consult-wrapper {
+				max-width: 425px;
+				margin: 0 auto;
+			}
+		}
+
+		.row {
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 0;
+			}
+		}
+
+		.contact-col {
+			position: relative;
+
+			@media screen and (max-width: $mediumdevice) {
+				background: white;
+			}
+
+			&:after {
+				content: "";
+				background: url(/wp-content/themes/easel-v4/img/AdobeStock_59481979.jpg);
+				@include bgcover;
+				top: -100px;
+				height: 100%;
+				width: 100%;
+				z-index: 1;
+				position: absolute;
+
+				@media screen and (max-width: $mediumdevice) {
+					display: none;
+				}
+			}
+
+			.logo {
+
+				@media screen and (max-width: $mediumdevice) {
+					display: inline-block;
+					margin: 0 0 30px;
+				}
+			}
+
+			.contact-info {
+				padding: 50px;
+				background: white;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				z-index: 2;
+
+				@media screen and (max-width: $mediumdevice) {
+					bottom: auto;
+					left: auto;
+					position: relative;
+					padding: $sectionpadding/3 20px;
+				}
+
+				ul {
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+					@media screen and (max-width: $mediumdevice) {
+						margin: 0 0 40px;
+					}
+
+					li {
+						margin: 0 0 15px;
+						padding: 0 0 0 20px;
+						position: relative;
+
+						&:last-of-type {
+							margin: 0;
+						}
+
+						.fa {
+							position: absolute;
+							top: 5px;
+							left: 0;
+						}
+
+						a {
+							color: $theme-color-one;
+							font-family: $mainfont;
+							font-weight: 400;
+							font-size: 19px;
+						}
+					}
+				}
+
+				.sm-col {
+
+					ul {
+						@media screen and (max-width: $mediumdevice) {
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.credits {
+		background: $theme-color-two;
+		padding: 10px;
+		text-align: center;
+
+		// Copyright
+		.copy {
+			font-size: 15px;
+			color: white;
+			margin: 0;
+
+			a {
+				color: white;
+
+				&:hover {
+					color: white;
+					opacity: .5;
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		margin-bottom: $mobilebarheight;
+	}
+}

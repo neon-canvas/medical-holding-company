@@ -1,0 +1,27 @@
+// Styling for Ortho Chats (overrides)
+
+#livechat-eye-catcher,
+#livechat-compact-container,
+#livechat-full {
+
+	@media only screen and (max-width: $mediumdevice) {
+		bottom: $mobilebarheight !important;
+		z-index: 9990 !important;
+	}
+}
+
+// Large graphic to call attention
+#livechat-eye-catcher {
+
+	@media only screen and (max-width: $mediumdevice) {
+		bottom: $mobilebarheight + $gutter !important;
+	}
+}
+
+// Little tab that sticks up from the bottom
+#livechat-compact-container {
+
+	@media only screen and (max-width: $mediumdevice) {
+		right: 5px !important;
+	}
+}

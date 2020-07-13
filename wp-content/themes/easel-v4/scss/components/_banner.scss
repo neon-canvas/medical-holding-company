@@ -1,0 +1,71 @@
+// Large hero sections on pages
+.banner {
+	@include bgcover;
+	background-color: $base;
+	overflow: hidden;
+	height: 800px;
+
+	@media screen and (max-width: $mediumdevice) {
+		height: 600px;
+	}
+
+	@media screen and (max-width: $smalldevice) {
+		height: 325px;
+	}
+
+	&:before {
+		@include overlay;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		color: white;
+	}
+
+	.banner-message {
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		bottom: 150px;
+		width: 100%;
+		padding: 0 150px;
+
+		@media screen and (max-width: $mediumdevice) {
+			padding: 0 50px;
+		}
+
+		@media screen and (max-width: $smalldevice) {
+			padding: 0 20px;
+		}
+	}
+
+	&.default-banner {
+		height: 600px;
+		margin: $headerheight 0 0;
+		background-position: top;
+
+		@media screen and (max-width: $smalldevice) {
+			height: 400px;
+		}
+
+		.default-banner-wrapper {
+			position: absolute;
+			z-index: 2;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			text-align: center;
+
+			h2 {
+				position: relative;
+				margin: 0;
+				text-shadow: rgb(21, 21, 21) 0px 0px 32px;
+				max-width: 400px;
+			}
+		}
+	}
+}

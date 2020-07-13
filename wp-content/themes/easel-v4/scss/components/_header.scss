@@ -1,0 +1,141 @@
+header {
+	@include trans;
+	height: $headerheight;
+	background: transparent;
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	@media screen and (max-width: $smalldevice) {
+		height: 85px;
+	}
+
+	&.active {
+		background: white;
+		box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	}
+
+	// Logo
+	.logo {
+		position: absolute;
+		left: 25px;
+		top: 50%;
+		transform: translateY(-50%);
+
+		@media screen and (max-width: $smalldevice) {
+			width: 150px;
+		}
+	}
+
+	a.phone-cta {
+		font-family: $secfont;
+		font-size: 14px;
+		position: absolute;
+		right: 325px;
+		top: 50%;
+		transform: translateY(-50%);
+		color: $theme-color-one;
+
+		@media screen and (max-width: $mediumdevice) {
+			display: none;
+		}
+
+		.fa {
+			display: inline-block;
+			margin: 0 5px 0 0;
+			vertical-align: middle;
+			font-size: 18px;
+		}
+	}
+
+	.cta-btn {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background: $theme-color-four;
+		color: white;
+		right: 135px;
+
+		@media screen and (max-width: $mediumdevice) {
+			display: none;
+		}
+
+		&:hover {
+			background: $theme-color-one;
+		}
+	}
+
+	// Main navigation
+	nav#site-navigation {
+		float: right;
+		padding: 0 15px 0 0;
+
+		// Menu
+		#primary-menu {
+			margin: 0;
+			padding: 0;
+
+			@media screen and (max-width: $mediumdevice) {
+				display: none;
+			}
+
+			li {
+				position: relative;
+				display: inline-block;
+				// padding: 0 .6em;
+
+				&:last-child {
+					// padding-right: 0;
+
+					ul {
+						left: auto;
+						right: 0;
+					}
+				}
+
+				a {
+					display: inline-block;
+					position: relative;
+					color: black;
+
+					&:hover {
+						color: #333;
+					}
+				}
+
+				&:hover {
+					ul {
+						@include visible;
+					}
+				}
+
+				// Sub menu
+				ul {
+					@include hidden;
+					position: absolute;
+					top: 100%;
+					background: rgba(171,219,202,0.9);
+					padding: 10px;
+
+					li {
+						padding: 10px 25px;
+
+						a {
+							color: black;
+
+							&:hover {
+								color: #333 !important;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		@media only screen and (max-width: $smalldevice) {
+			display: none;
+		}
+	}
+}

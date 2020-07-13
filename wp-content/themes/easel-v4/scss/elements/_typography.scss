@@ -1,0 +1,91 @@
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $mainfont;
+	font-weight: 500;
+	padding: 0;
+	color: $theme-color-one;
+	margin: 0 0 15px;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 90px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 42px;
+	}
+}
+
+h2 {
+	font-size: 45px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 30px;
+	}
+}
+
+h3 {
+	font-size: 36px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 24px;
+	}
+}
+
+h4 {
+    font-size: 28px;
+	
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 20px;
+	}
+}
+
+h5 {
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1.14px;
+	text-transform: uppercase;
+	font-family: $secfont;
+	font-weight: 700;
+
+	@media only screen and (max-width: $mediumdevice) {
+
+	}
+}
+
+// Paragraph
+p {
+	font-family: $mainfont;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 28px;
+	margin: 0 0 15px;
+}
+
+blockquote {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-left: 80px;
+
+	&:before {
+		content: "“";
+		position: absolute;
+		left: 0;
+		top: -25px;
+		color: $theme-color-one;
+		font-size: 8rem;
+		font-weight: bold;
+	}
+
+	p:first-of-type {
+		background-color: rgba(255,255,255,1);
+		line-height: 1.5em;
+		font-size: 24px;
+	}
+}

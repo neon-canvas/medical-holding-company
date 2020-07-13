@@ -1,0 +1,44 @@
+/*!
+	Theme Name: Easel v4
+	Author: Neon Canvas
+	Author URI: http://neoncanvas.com
+	Description: Client framework for Neon Canvas sites
+	Version: 2.0
+	Text Domain: canvas
+*/
+
+// Settings
+@import 'settings/variables';
+@import 'settings/mixins';
+@import 'settings/normalize';
+@import 'settings/base';
+
+// Plugins
+
+// Elements
+@import 'elements/typography';
+@import 'elements/buttons';
+@import 'elements/forms';
+@import 'elements/fonts';
+@import 'elements/tables';
+@import 'elements/video';
+@import 'elements/flexbox';
+
+// Components
+@import 'components/banner';
+@import 'components/comments';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/sidebar';
+@import 'components/testimonials';
+@import 'components/mobile-nav';
+@import 'components/mobile-bar';
+@import 'components/blocks';
+
+// Views
+@import 'views/home';
+@import 'views/default';
+@import 'views/blog';
+@import 'views/single';
+@import 'views/404';
+@import 'views/no-header';

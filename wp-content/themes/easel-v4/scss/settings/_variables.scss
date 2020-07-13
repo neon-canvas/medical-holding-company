@@ -1,0 +1,56 @@
+// Primary Colors
+$primary: black;
+
+// Grays
+$base: #222325; // Base gray
+
+$theme-color-one: #1C5D96;
+$theme-color-two: #1B2440;
+$theme-color-three: #85ADB0;
+$theme-color-four: #FA9901;
+$theme-color-five: #F3FAFF;
+
+$gray-10: lighten($base, 10%);
+$gray-20: lighten($base, 20%);
+$gray-30: lighten($base, 30%);
+$gray-40: lighten($base, 40%);
+$gray-50: lighten($base, 50%);
+$gray-60: lighten($base, 60%);
+$gray-70: lighten($base, 70%);
+$gray-80: lighten($base, 80%);
+$gray-90: lighten($base, 90%);
+
+// Fonts
+$mainfont: 'Cormorant Garamond', serif;
+$secfont: 'Roboto', sans-serif;
+
+// Icons
+$iconfont: '';
+$canvas-icons: 'canvas';
+
+// Structure
+$gutter: 30px;
+$sectionpadding: 7.5em;
+
+// Heights
+$utilheight: 40px;
+$navheight: 60px;
+$mobilebarheight: 55px;
+$headerheight: 100px;
+
+// Widths
+$extralarge-max-width: 1600px;
+$large-max-width: 1140px;
+$small-max-width: 960px;
+$content-width: 820px;
+
+// Grid
+$grid-width: 96%;
+
+// Breakpoints
+$largedesktop: 1400px;
+$desktop: 1140px;
+$largedevice: 980px;
+$mediumlargedevice: 900px;
+$mediumdevice: 768px;
+$smalldevice: 480px;

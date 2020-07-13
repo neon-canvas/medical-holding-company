@@ -1,0 +1,121 @@
+$default-btn-display: inline-block;
+$default-btn-color: white;
+$default-btn-font-size: 14px;
+$default-btn-font-weight: 700;
+$default-btn-text-transform: uppercase;
+$default-btn-letter-spacing: 2px;
+$default-btn-bg-color: $theme-color-three;
+$default-btn-height: 34px;
+$default-btn-width: auto;
+$default-btn-padding: 0 25px;
+$default-btn-border-style: solid;
+$default-btn-border-width: 2px;
+$default-btn-border-color: $default-btn-bg-color;
+
+@mixin btn (
+	$btn-display: $default-btn-display,
+	$btn-color: $default-btn-color,
+	$btn-font-size: $default-btn-font-size,
+	$btn-font-weight: $default-btn-font-weight,
+	$btn-text-transform: $default-btn-text-transform,
+	$btn-letter-spacing: $default-btn-letter-spacing,
+	$btn-bg-color: $default-btn-bg-color,
+	$btn-padding: $default-btn-padding,
+	$btn-height: $default-btn-height,
+	$btn-width: $default-btn-width
+) {
+	display: $btn-display;
+	color: $btn-color;
+	font-size: $btn-font-size;
+	font-weight: $btn-font-weight;
+	line-height: $btn-height;
+	text-transform: $btn-text-transform;
+	letter-spacing: $btn-letter-spacing;
+	padding: $btn-padding;
+	width: $btn-width;
+	background: $btn-bg-color;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	font-family: $secfont;
+
+	&:hover {
+		background: $theme-color-two;
+	}
+}
+
+@mixin btn-hollow (
+	$btn-display: $default-btn-display,
+	$btn-color: $default-btn-bg-color,
+	$btn-font-size: $default-btn-font-size,
+	$btn-font-weight: $default-btn-font-weight,
+	$btn-text-transform: $default-btn-text-transform,
+	$btn-letter-spacing: $default-btn-letter-spacing,
+	$btn-bg-color: $default-btn-bg-color,
+	$btn-padding: $default-btn-padding,
+	$btn-height: $default-btn-height,
+	$btn-width: $default-btn-width,
+	$btn-border-width: $default-btn-border-width,
+	$btn-border-color: $default-btn-border-color
+) {
+	display: $btn-display;
+	color: white;
+	font-size: $btn-font-size;
+	font-weight: $btn-font-weight;
+	line-height: $btn-height;
+	text-transform: $btn-text-transform;
+	letter-spacing: $btn-letter-spacing;
+	padding: $btn-padding;
+	width: $btn-width;
+	background: transparent;
+	border: $default-btn-border-style $btn-border-width white;
+	outline: 0;
+	cursor: pointer;
+
+	&:hover {
+		color: white;
+		background: $btn-color;
+	}
+}
+
+// Buttons
+.btn {
+	@include btn;
+	@include trans;
+}
+
+.btn-hollow {
+	@include btn-hollow;
+	@include trans;
+}
+
+.btn-underline {
+	font-family: $secfont;
+	font-weight: 700;
+	font-size: 14px;
+	color: $theme-color-two;
+	letter-spacing: 1.14px;
+	text-transform: uppercase;
+	position: relative;
+	padding: 0 0 5px;
+	display: inline-block;
+
+	&:hover {
+		
+		&:after {
+			width: 50%;
+		}
+	}
+
+	&:after {
+		@include trans;
+		content: "";
+		height: 2px;
+		background: $theme-color-three;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		display: block;
+		position: absolute;
+	}
+}

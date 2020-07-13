@@ -1,0 +1,159 @@
+body.page-template-default,
+body.blog,
+body.single {
+
+	header {
+		background: white;
+	}
+
+	.section-padding {
+		padding: $sectionpadding 0;
+
+		@media only screen and (max-width: $mediumdevice) {
+			padding: $sectionpadding/2 0;
+		}
+	}
+
+	.section-padding-top {
+		padding: $sectionpadding 0 0;
+
+		@media only screen and (max-width: $mediumdevice) {
+			padding: $sectionpadding/2 0 0;
+		}
+	}
+
+	.section-padding-bottom {
+		padding: 0 0 $sectionpadding;
+
+		@media only screen and (max-width: $mediumdevice) {
+			padding: 0 0 $sectionpadding/2;
+		}
+	}
+
+	.dark-bg {
+		background: $theme-color-two;
+
+		h2,
+		h3,
+		h4,
+		h5,
+		p {
+			color: white;
+		}
+	}
+
+	.light-bg {
+		background: $theme-color-five;
+	}
+
+	section.default-page-title {
+		padding: 20px 0 15px;
+		color: #6b6b6b;
+		font-size: 14px;
+		box-shadow: 0 0 12px rgba(0,0,0,0.15);
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-align-content: stretch;
+		-ms-flex-line-pack: stretch;
+		align-content: stretch;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		position: relative;
+		z-index: 2;
+
+
+		@media screen and (max-width: $mediumdevice) {
+			text-align: center;
+		}
+
+		h1 {
+			-webkit-flex: 0 1 50%;
+			-ms-flex: 0 1 50%;
+			flex: 0 1 50%;
+			margin: 0;
+			font-size: 35px;
+			padding: 0 0 0 80px;
+
+			@media screen and (max-width: $mediumdevice) {
+				-webkit-flex: 0 1 100%;
+				-ms-flex: 0 1 100%;
+				flex: 0 1 100%;
+				padding: 5px 10px;
+			}
+		}
+
+		.default-cta {
+			-webkit-flex: 0 1 50%;
+			-ms-flex: 0 1 50%;
+			flex: 0 1 50%;
+			padding: 0 80px 0 0;
+			text-align: right;
+
+			@media screen and (max-width: $mediumdevice) {
+				-webkit-flex: 0 1 100%;
+				-ms-flex: 0 1 100%;
+				flex: 0 1 100%;
+				text-align: center;
+				padding: 5px 10px;
+			}
+		}
+
+		.btn {
+			display: inline-block;
+			margin: 0 0 0 10px;
+			padding: 0 35px;
+			line-height: 40px;
+		}
+	}
+
+
+	section.content {
+		padding: 0;
+
+		ul {
+			li {
+				margin: 0 0 15px;
+			}
+		}
+
+		.gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {
+			width: 100% !important;
+		}
+	}
+
+	&.page-meet-the-team {
+
+		.banner {
+			background-position: top !important;
+		}
+	}
+}
+
+body.page-invisalign-teen.group-blog .default-banner {
+	background-position: 50% 30% !important;
+}
+
+body.page-meet-team-demas .default-banner {
+	background-position: top !important;
+}
+
+body.page-before-and-after {
+
+	.before-after {
+		background: $theme-color-three;
+		border: 1px solid $theme-color-five;
+		margin: 50px auto 50px;
+		padding: 20px 40px;
+	}
+}

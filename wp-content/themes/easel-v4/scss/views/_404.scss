@@ -1,0 +1,34 @@
+body.error404 {
+    background: $theme-color-one;
+
+    header {
+    	background: white;
+    }
+
+	.not-found {
+		padding-top: 20em;
+		padding-bottom: 12em;
+		text-align: center;
+		background: $theme-color-one;
+
+		h2 {
+			color: white;
+			margin-bottom: .8em;
+		}
+
+		p {
+			color: white;
+		}
+
+		a {
+			@include btn (
+				$btn-color: white
+			);
+		}
+
+		@media only screen and (max-width: $mediumdevice) {
+			padding-top: 10em;
+			padding-bottom: 5em;
+		}
+	}
+}

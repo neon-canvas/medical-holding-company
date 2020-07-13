@@ -1,0 +1,119 @@
+.mobile-bar {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: $mobilebarheight;
+	background: white;
+	box-shadow: 0 -1px 4px rgba(0,0,0,0.05), 0 -1px 4px rgba(0,0,0,0.10);
+	z-index: 9998;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			position: relative;
+			float: left;
+			width: 25%;
+
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				color: $base;
+				font-size: 1.2em;
+				text-align: center;
+				line-height: $mobilebarheight;
+				width: 100%;
+				pointer-events: none;
+			}
+
+			&:first-of-type {
+				width: 50%;
+				background: $theme-color-four;
+
+				a {
+					color: white;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-size: 14px;
+				}
+			}
+
+			&:last-of-type {
+				border-left: 1px solid #ededed;
+			}
+
+			a {
+				display: block;
+				color: $theme-color-two;
+				text-align: center;
+				line-height: $mobilebarheight;
+				overflow: hidden;
+				font-size: 17px;
+				font-weight: 700;
+				font-family: $secfont;
+			}
+
+			&.main-action {
+				width: 40%;
+
+				a {
+					font-weight: 600;
+					text-indent: 0;
+					background: $base;
+
+					&:hover {
+						background: darken($base, 5%);
+					}
+				}
+			}
+
+			&:hover {
+				&:before {
+					color: white;
+				}
+
+				a {
+					color: white;
+					background: darken($base, 5%);
+				}
+
+				ul {
+					display: block;
+					background: darken($base, 5%);
+				}
+			}
+
+			ul {
+				display: none;
+				position: fixed;
+				left: 0;
+				width: 100%;
+				bottom: $mobilebarheight;
+				background: $base;
+
+				li {
+					display: block;
+					width: 100%;
+					border-top: 1px solid darken($base, 8%);
+
+					&:first-child {
+						border-top: 0;
+					}
+
+					a {
+						text-indent: 0;
+						padding: 0 $sectionpadding/2;
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		display: block;
+	}
+}

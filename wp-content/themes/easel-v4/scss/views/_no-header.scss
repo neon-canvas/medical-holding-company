@@ -1,0 +1,95 @@
+body.page-template-no-header {
+
+	footer {
+		display: none;
+	}
+
+	section.content {
+		padding: 0;
+		margin: 90px 0 0;
+
+		.flex-row {
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-justify-content: flex-start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-align-content: stretch;
+			-ms-flex-line-pack: stretch;
+			align-content: stretch;
+			-webkit-align-items: stretch;
+			-ms-flex-align: stretch;
+			align-items: stretch;
+
+			.col-left {
+				-webkit-flex: 0 1 100%;
+				-ms-flex: 0 1 100%;
+				flex: 0 1 100%;
+				background: white;
+				padding: 70px 150px;
+				min-height: calc(100vh - 85px);
+				position: relative;
+				z-index: 3;
+				background: $theme-color-five;
+
+				@media screen and (max-width: 1300px) {
+					padding: 70px 50px;
+				}
+
+				@media screen and (max-width: 1050px) {
+					padding: 70px 20px;
+				}
+
+				@media screen and (max-width: $mediumdevice) {
+					-webkit-flex: 0 1 100%;
+					-ms-flex: 0 1 100%;
+					flex: 0 1 100%;
+					padding: 25px 0;
+					text-align: left;
+					height: auto;
+				}
+
+				h1 {
+					font-size: 40px;
+					line-height: 1.2em;
+				}
+
+				p {
+					font-size: 15px;
+					line-height: 1.35em;
+					margin: 0 0 15px;
+
+					&:last-of-type {
+						margin: 0;
+					}
+				}
+
+				input[type=text] {
+					background: white;
+					border: 1px solid #ddd;
+				}
+
+				input {
+					width: 100%;
+				}
+
+				label {
+					color: $base;
+					opacity: .75;
+				}
+
+				.gform_confirmation_message {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+}

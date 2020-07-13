@@ -1,0 +1,120 @@
+// Border radius
+@mixin border-radius ($radius: 3px) {
+	border-radius: $radius;
+	background-clip: padding-box;
+}
+@mixin round-radius ($radius: 30px) {
+	border-radius: $radius;
+	background-clip: padding-box;
+}
+
+// List items
+@mixin ul (
+	$ul-padding: .6em,
+	$ul-margin: 1.6em,
+	$ul-list: disc
+) {
+	list-style: $ul-list;
+	padding: $ul-padding;
+	margin: $ul-margin;
+
+	li {
+		margin: $ul-margin/4 0;
+		padding: $ul-padding/4;
+	}
+}
+
+// Transitions
+$default-trans-property: all;
+$default-trans-type: ease-in-out;
+$default-trans-speed: .33s;
+$default-trans-delay: 0;
+@mixin trans (
+	$trans-property: $default-trans-property,
+	$trans-type: $default-trans-type,
+	$trans-speed: $default-trans-speed,
+	$trans-delay: $default-trans-delay
+) {
+	transition-property: $trans-property;
+	transition-duration: $trans-speed;
+	transition-timing-function: $trans-type;
+	transition-delay: $trans-delay;
+}
+
+// Hidden elements
+@mixin hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+
+// Visible elements
+@mixin visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+// Background cover
+@mixin bgcover {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+// Background overlay
+$default-overlay-color: $base;
+$default-overlay-opacity: .6;
+@mixin overlay(
+	$overlay-color: $default-overlay-color,
+	$overlay-opacity: $default-overlay-opacity
+) {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba($overlay-color, $overlay-opacity);
+	z-index: 1;
+}
+
+// Delineator
+$default-delineator-color: $gray-30;
+$default-delineator-margin: 2em auto;
+@mixin delineator (
+	$delineator-color: $default-delineator-color,
+	$delineator-margin: $default-delineator-margin
+) {
+	&:after {
+		content: '';
+		display: block;
+		margin: $delineator-margin;
+		height: 2px;
+		width: 80px;
+		background: $delineator-color;
+	}
+}
+
+// Clearfix
+@mixin clearfix() {
+	&:before,
+	&:after {
+	    content: "";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+}
+
+@mixin flexcenter () {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin abcenter () {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
