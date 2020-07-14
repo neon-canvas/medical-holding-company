@@ -1,3 +1,39 @@
-table {
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
 
+	&.doctors-table {
+
+		@media screen and (max-width: $mediumdevice) {
+			display: none;
+		}
+	}
+
+	tr:nth-of-type(odd) { 
+		background: $theme-color-five; 
+	}
+
+	th { 
+		background: white; 
+		color: $theme-color-one; 
+		font-weight: bold; 
+
+		img {
+			margin: 0 auto 10px;
+			display: block;
+		}
+
+		span {
+			display: block;
+		}
+	}
+
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: center; 
+	}
 }

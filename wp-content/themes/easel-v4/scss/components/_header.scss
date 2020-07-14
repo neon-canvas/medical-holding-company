@@ -1,31 +1,28 @@
 header {
 	@include trans;
 	height: $headerheight;
-	background: transparent;
+	background: white;
 	z-index: 99;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	box-shadow: 0 0 30px rgba(0,0,0,0.1);
 
 	@media screen and (max-width: $smalldevice) {
 		height: 85px;
 	}
 
-	&.active {
-		background: white;
-		box-shadow: 0 0 20px rgba(0,0,0,0.2);
-	}
-
 	// Logo
 	.logo {
 		position: absolute;
-		left: 25px;
+		left: 50%;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		width: 340px;
 
 		@media screen and (max-width: $smalldevice) {
-			width: 150px;
+			width: 300px;
 		}
 	}
 

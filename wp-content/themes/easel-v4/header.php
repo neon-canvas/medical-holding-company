@@ -34,19 +34,19 @@
 
 	<?php // Logo ?>
 	<a href="/" class="logo">
-		<img src="/wp-content/themes/easel-v4/img/logo.png" alt="logo">
+		<img src="/wp-content/themes/easel-v4/img/moga-quad-logos-v2.jpg" alt="logo">
 	</a>
 
 	<?php // Mobile menu ?>
-	<a class="menu-toggle">
+	<!-- <a class="menu-toggle">
 		<div class="menu-text">Menu</div>
 		<span></span>
-	</a>
+	</a> -->
 
 	<?php // On smaller devices, the main menu will appear here ?>
 
-	<nav id="side-menu">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+	<!-- <nav id="side-menu">
+		<?php // wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		<div class="contact-info">
 			<a href="/free-consult" class="btn">Free Consult</a>
 			<h5>Contact Us</h5>
@@ -54,11 +54,11 @@
 			Memphis, TN 38138</a></p>
 			<p><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 111-222-3333</a></p>
 		</div>
-	</nav>
+	</nav> -->
 
-	<a href="#" class="phone-cta"><i class="fa fa-phone" aria-hidden="true"></i> 111-222-3333</a>
+	<!-- <a href="#" class="phone-cta"><i class="fa fa-phone" aria-hidden="true"></i> 111-222-3333</a>
 
-	<a href="/free-consult" class="btn cta-btn">Free Consult</a>
+	<a href="/free-consult" class="btn cta-btn">Free Consult</a> -->
 
 </header>
 

@@ -48290,183 +48290,78 @@
 		"oAP": "/wp-content/themes/easel-v4/homepage.php",
 		"oF": 0
 		},
-	"/wp-content/themes/easel-v4/img/AdobeStock_210533004-v2.jpg": {
+	"/wp-content/themes/easel-v4/img/mcw-logo.jpg": {
 		"ft": 16384,
-		"iS": 132622,
+		"iS": 6930,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/AdobeStock_210533004-v2.jpg",
+		"oAP": "/wp-content/themes/easel-v4/img/mcw-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/themes/easel-v4/img/AdobeStock_210533004.jpg": {
+	"/wp-content/themes/easel-v4/img/moga-logo.jpg": {
 		"ft": 16384,
-		"iS": 134175,
+		"iS": 9366,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/AdobeStock_210533004.jpg",
+		"oAP": "/wp-content/themes/easel-v4/img/moga-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/themes/easel-v4/img/AdobeStock_251233785.jpg": {
+	"/wp-content/themes/easel-v4/img/moga-logo.png": {
+		"ft": 32768,
+		"iS": 6400,
+		"oA": 0,
+		"oAP": "/wp-content/themes/easel-v4/img/moga-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/easel-v4/img/moga-quad-logos-v2.jpg": {
 		"ft": 16384,
-		"iS": 146624,
+		"iS": 733506,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/AdobeStock_251233785.jpg",
+		"oAP": "/wp-content/themes/easel-v4/img/moga-quad-logos-v2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/themes/easel-v4/img/AdobeStock_59481979.jpg": {
+	"/wp-content/themes/easel-v4/img/MOGA-Quad-Logos.jpg": {
 		"ft": 16384,
-		"iS": 223341,
+		"iS": 774306,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/AdobeStock_59481979.jpg",
+		"oAP": "/wp-content/themes/easel-v4/img/MOGA-Quad-Logos.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/wp-content/themes/easel-v4/img/easel.png": {
-		"ft": 32768,
-		"iS": 8338,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/easel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/easel.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/easel-v4/img/easel.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/wp-content/themes/easel-v4/img/icon-easy-financing.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/easel-v4/img/icon-easy-financing.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/wp-content/themes/easel-v4/img/icon-ortho-for-all-ages.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/easel-v4/img/icon-ortho-for-all-ages.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/wp-content/themes/easel-v4/img/icon-quotes.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/easel-v4/img/icon-quotes.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/wp-content/themes/easel-v4/img/icon-treatments.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/easel-v4/img/icon-treatments.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/wp-content/themes/easel-v4/img/logo.png": {
-		"ft": 32768,
-		"iS": 3624,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/model-clear-braces.png": {
-		"ft": 32768,
-		"iS": 30074,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/model-clear-braces.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/model-invisalign.png": {
-		"ft": 32768,
-		"iS": 27819,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/model-invisalign.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/model-metal-braces.png": {
-		"ft": 32768,
-		"iS": 109824,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/model-metal-braces.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/neon-canvas-dark.png": {
-		"ft": 32768,
-		"iS": 2926,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/neon-canvas-dark.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/neon-canvas.png": {
-		"ft": 32768,
-		"iS": 2933,
-		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/neon-canvas.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/easel-v4/img/reviews-bg.jpg": {
+	"/wp-content/themes/easel-v4/img/whs-logo.jpg": {
 		"ft": 16384,
-		"iS": 23446,
+		"iS": 7178,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/themes/easel-v4/img/reviews-bg.jpg",
+		"oAP": "/wp-content/themes/easel-v4/img/whs-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/easel-v4/img/wpg-logo.jpg": {
+		"ft": 16384,
+		"iS": 6741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/easel-v4/img/wpg-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -55596,12 +55491,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/wp-content/uploads/bb-plugin/cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/wp-content/uploads/bb-plugin/cache",
-		"oF": 0
 		},
 	"/wp-content/uploads/bb-plugin/icons/index.html": {
 		"cB": 0,

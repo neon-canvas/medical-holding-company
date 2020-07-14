@@ -1,323 +1,42 @@
 body.home {
 
-	section.banner {
-		background: url(/wp-content/themes/easel-v4/img/AdobeStock_210533004-v2.jpg);
-		@include bgcover;
-		background-position: top;
-
-		@media screen and (max-width: 1260px) {
-			height: 600px;
-		}
-
-		@media screen and (max-width: $mediumdevice) {
-			height: 400px;
-			background-position: 70% 0%;
-			background-size: 190%;
-		}
-
-		@media screen and (max-width: 330px) {
-			height: 250px;
-			background-position: 60% 0%;
-			background-size: 170%;
-		}
-
-		.banner-message {
-
-			@media screen and (max-width: 1260px) {
-				bottom: 50px;
-				padding: 0 50px;
-			}
-
-			@media screen and (max-width: $mediumdevice) {
-				bottom: auto;
-				top: 50%;
-				transform: translateY(-50%);
-				margin: 20px 0 0;
-			}
-
-			@media screen and (max-width: $smalldevice) {
-				padding: 0 20px;
-			}
-
-			h1 {
-
-				@media screen and (max-width: $mediumdevice) {
-					max-width: 220px;
-				}
-			}
-		}
-
-		&:before {
-			opacity: 0;
-		}
-
-		h1 {
-			color: $theme-color-one;
-			max-width: 500px;
-		}
-	}
-
 	section.welcome {
+		margin: $headerheight 0 0;
 		background: $theme-color-five;
 
-		@media screen and (max-width: $mediumdevice) {
-			padding: 0;
-		}
-
-		.container {
-
-			@media screen and (max-width: $mediumdevice) {
-				padding: 0;
-			}
-
-			.row {
-
-				@media screen and (max-width: $mediumdevice) {
-					margin: 0;
-				}
-			}
-		}
-
-		.cta-wrapper {
-			background: $theme-color-two;
-
-			.content-wrapper {
-				padding: 150px 100px;
-
-				@media screen and (max-width: $mediumdevice) {
-					padding: 40px 35px;
-				}
-
-				h5,
-				h2,
-				p {
-					color: white;
-				}
-
-				.btn-underline {
-					color: white;
-
-					&:after {
-						background: white;
-					}
-				}
-			}
-
-			.photo-col {
-				background:url(/wp-content/themes/easel-v4/img/AdobeStock_251233785.jpg);
-				@include bgcover;
-				background-position: 80% 50%;
-
-				@media screen and (max-width: $mediumdevice) {
-					height: 400px;
-				}
-			}
+		@media screen and (max-width: $smalldevice) {
+			margin: 85px 0 0;
 		}
 	}
 
-	section.how-we-help {
-		text-align: center;
+	section.info {
 
-		@media screen and (max-width: $mediumdevice) {
-			background: $theme-color-five;
-		}
-
-		.cta-row {
-			background: $theme-color-five;
-			margin: 90px 0 0;
-
-			@media screen and (max-width: $mediumdevice) {
-				margin: 40px 0 0;
-			}
-
-			.cta-col {
-				padding: 0 50px 15px;
-
-				@media screen and (max-width: $mediumdevice) {
-					margin: 0 0 30px;
-					padding: 0 20px 15px;
-				}
-
-				&:last-of-type {
-
-					@media screen and (max-width: $mediumdevice) {
-						margin: 0;
-					}
-
-					p {
-
-						@media screen and (max-width: $mediumdevice) {
-							margin: 0;
-						}
-					}
-				}
-			}
-
-			img {
-				margin: -45px 0 15px;
-
-				@media screen and (max-width: $mediumdevice) {
-					margin: 0 0 15px;
-				}
-			}
-		}
-	}
-
-	section.meet-the-doctor {
-		background: $theme-color-five;
-
-		@media screen and (max-width: $mediumdevice) {
-			padding: 0;
-		}
-
-		.container {
-
-			@media screen and (max-width: $mediumdevice) {
-				padding: 0;
-			}
-
-			.row {
-
-				@media screen and (max-width: $mediumdevice) {
-					margin: 0;
-				}
-			}
-		}
-
-		.cta-wrapper {
-			background: $theme-color-two;
-
-			.content-wrapper {
-				padding: 150px 100px;
-
-				@media screen and (max-width: $mediumdevice) {
-					padding: 40px 35px;
-				}
-
-				h5,
-				h2,
-				p {
-					color: white;
-				}
-
-				.btn-underline {
-					color: white;
-
-					&:after {
-						background: white;
-					}
-				}
-			}
-
-			.photo-col {
-				background:url(/wp-content/uploads/2019/10/kyle-home-about-image.jpg);
-				@include bgcover;
-				background-position: 80% 50%;
-
-				@media screen and (max-width: $mediumdevice) {
-					height: 400px;
-				}
-			}
-		}
-	}
-
-	section.our-treatments {
-		background: $theme-color-five;
-
-		.section-intro {
-			margin: 0 0 50px;
+		@media screen and (min-width: $mediumdevice) {
 			text-align: center;
 		}
 
-		.treatment {
-			text-align: center;
-			padding: 270px 15px 0;
-			position: relative;
-
-			@media screen and (max-width: $mediumdevice) {
-				margin: 0 0 30px;
-			}
-
-			img {
-				position: absolute;
-				top: 0;
-				left: 50%;
-				transform: translateX(-50%);
-
-				&.clear-braces {
-					max-width: 235px;
-				}
-			}
-		}
-	}
-
-	section.reviews {
-		background: url(/wp-content/themes/easel-v4/img/reviews-bg.jpg);
-		@include bgcover;
-		text-align: center;
-
-		.section-intro {
+		.mobile-doctor-list {
+			text-align: left;
+			border: 1px solid #ddd;
+			padding: 20px;
+			border-radius: 8px;
 			margin: 0 0 30px;
 
-			h5 {
-				color: white;
-				position: relative;
-
-				&:after {
-					content: "";
-					position: absolute;
-					width: 76px;
-					height: 50px;
-					background: url(/wp-content/themes/easel-v4/img/icon-quotes.svg);
-					@include bgcover;
-					top: 50%;
-					left: 50%;
-					transform: translateX(-50%) translateY(-50%);
-				}
-
-				span {
-					position: relative;
-					z-index: 1;
-				}
-			}
-		}
-
-		.container {
-			max-width: 980px;
-		}
-
-		.owl-item {
-
-			p {
-				font-family: $mainfont;
-				font-weight: 500;
-				font-size: 45px;
-				color: white;
-				line-height: 55px;
-				margin: 0 0 35px;
-
-				@media screen and (max-width: $mediumdevice) {
-					font-size: 24px;
-					line-height: 30px;
-				}
+			@media screen and (min-width: $mediumdevice) {
+				display: none;
 			}
 
-			h5 {
-				color: white;
-				position: relative;
-				padding: 0 0 5px;
-				display: table;
-				margin: 0 auto;
+			img {
+				display: block;
+				margin: 0 0 15px;
+			}
 
-				&:after {
-					content: "";
-					height: 2px;
-					width: 100%;
-					bottom: 0;
-					left: 0;
-					background: white;
-					display: inline-block;
-				}
+			a {
+				font-size: 25px;
+			}
+
+			ul {
+				padding: 0 0 0 20px;
 			}
 		}
 	}
