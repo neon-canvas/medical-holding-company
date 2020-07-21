@@ -3,6 +3,7 @@ body.home {
 	section.welcome {
 		margin: $headerheight 0 0;
 		background: $theme-color-five;
+		text-align: center;
 
 		@media screen and (max-width: $smalldevice) {
 			margin: 85px 0 0;
