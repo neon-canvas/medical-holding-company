@@ -10,11 +10,11 @@ get_header(); ?>
 		<div class="container-sml">
 			<h1 class="small">Memphis Obstetrics & Gynecological Association, P.C.</h1>
 			<p class="large">A Clinically Integrated Medical Practice</p>
-			<p>Memphis Obstetrics & Gynecological Association, P.C. is a clinically integrated medical practice, providing obstetrical, gynecological, urogynecological and diagnostic services to women in Memphis and the Mid-South.</p>
+			<p style="text-align: left;">Memphis Obstetrics & Gynecological Association, P.C. is a clinically integrated medical practice, providing obstetrical, gynecological, urogynecological and diagnostic services to women in Memphis and the Mid-South.</p>
 
-			<p>Founded in 1985, Memphis Obstetrical & Gynecological Assn., P.C. has grown by merging in established medical groups to further enhance the clinical services provided to each group’s patients. Increasing the number of clinicians in a practice allows the practice to provide more services, and to establish clinical guidelines for the clinicians to follow thus enhancing the quality of the practice.</p>
+			<p style="text-align: left;">Founded in 1985, Memphis Obstetrical & Gynecological Assn., P.C. has grown by merging in established medical groups to further enhance the clinical services provided to each group’s patients. Increasing the number of clinicians in a practice allows the practice to provide more services, and to establish clinical guidelines for the clinicians to follow thus enhancing the quality of the practice.</p>
 
-			<p>Please see the information below describing our divisions. To learn more, click on the link provided.</p>
+			<p style="text-align: left;">Please see the information below describing our divisions. To learn more, click on the link provided.</p>
 		</div>
 	</section>
 	<section class="info">
@@ -24,19 +24,19 @@ get_header(); ?>
 				<thead>
 					<tr>
 						<th scope="col">
-							<img src="/wp-content/themes/easel-v4/img/moga-logo.jpg" alt="MOGA logo">
+							<a href="http://www.mogamd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/moga-logo.jpg" alt="MOGA logo"></a>
 							<span><a href="http://www.mogamd.com" target="_blank">www.mogamd.com</a></span>
 						</th>
 						<th scope="col">
-							<img src="/wp-content/themes/easel-v4/img/mcw-logo.jpg" alt="MCW logo">
+							<a href="http://www.mestemd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/mcw-logo.jpg" alt="MCW logo"></a>
 							<span><a href="http://www.mestemd.com" target="_blank">www.mestemd.com</a></span>
 						</th>
 						<th scope="col">
-							<img src="/wp-content/themes/easel-v4/img/wpg-logo.jpg" alt="WPG logo">
+							<a href="http://www.wpgmd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/wpg-logo.jpg" alt="WPG logo"></a>
 							<span><a href="http://www.wpgmd.com" target="_blank">www.wpgmd.com</a></span>
 						</th>
 						<th scope="col">
-							<img src="/wp-content/themes/easel-v4/img/whs-logo.jpg" alt="WHS logo">
+							<a href="http://www.whsobgyn.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/whs-logo.jpg" alt="WHS logo"></a>
 							<span><a href="http://www.whsobgyn.com" target="_blank">www.whsobgyn.com</a></span>
 						</th>
 					</tr>
