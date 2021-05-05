@@ -25,18 +25,22 @@ get_header(); ?>
 					<tr>
 						<th scope="col">
 							<a href="http://www.mogamd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/moga-logo.jpg" alt="MOGA logo"></a>
+							<p style="max-width: 240px; margin: 0 auto 5px;">Memphis Obstetrics & Gynecological Association, P.C.</p>
 							<span><a href="http://www.mogamd.com" target="_blank">www.mogamd.com</a></span>
 						</th>
 						<th scope="col">
 							<a href="http://www.mestemd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/mcw-logo.jpg" alt="MCW logo"></a>
+							<p style="max-width: 170px; margin: 0 auto 5px;">Mestemacher Clinic for Women</p>
 							<span><a href="http://www.mestemd.com" target="_blank">www.mestemd.com</a></span>
 						</th>
 						<th scope="col">
 							<a href="http://www.wpgmd.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/wpg-logo.jpg" alt="WPG logo"></a>
+							<p style="max-width: 180px; margin: 0 auto 5px;">Women's Physician Group</p>
 							<span><a href="http://www.wpgmd.com" target="_blank">www.wpgmd.com</a></span>
 						</th>
 						<th scope="col">
 							<a href="http://www.whsobgyn.com" target="_blank"><img src="/wp-content/themes/easel-v4/img/whs-logo.jpg" alt="WHS logo"></a>
+							<p style="max-width: 180px; margin: 0 auto 5px;">Women's Health Specialist</p>
 							<span><a href="http://www.whsobgyn.com" target="_blank">www.whsobgyn.com</a></span>
 						</th>
 					</tr>
@@ -209,6 +213,7 @@ get_header(); ?>
 
 			<div class="mobile-doctor-list">
 				<img src="/wp-content/themes/easel-v4/img/moga-logo.jpg" alt="MOGA logo">
+				<p>Memphis Obstetrics & Gynecological Association, P.C.</p>
 				<a href="http://www.mogamd.com" target="_blank">www.mogamd.com</a>
 				<ul class="dr-list">
 					<li>John F. Albritton, M.D.</li>
@@ -240,6 +245,7 @@ get_header(); ?>
 
 			<div class="mobile-doctor-list">
 				<img src="/wp-content/themes/easel-v4/img/mcw-logo.jpg" alt="MCW logo">
+				<p>Mestemacher Clinic for Women</p>
 				<a href="http://www.mestemd.com" target="_blank">www.mestemd.com</a>
 				<ul class="dr-list">
 					<li>Christine Mestemacher, M.D.</li>
@@ -250,6 +256,7 @@ get_header(); ?>
 
 			<div class="mobile-doctor-list">
 				<img src="/wp-content/themes/easel-v4/img/wpg-logo.jpg" alt="WPG logo">
+				<p>Women's Physician Group</p>
 				<a href="http://www.mogamd.com" target="_blank">www.wpgmd.com</a>
 				<ul class="dr-list">
 					<li>Lanetta Anderson, M.D.</li>
@@ -263,6 +270,7 @@ get_header(); ?>
 
 			<div class="mobile-doctor-list">
 				<img src="/wp-content/themes/easel-v4/img/whs-logo.jpg" alt="WHS logo">
+				<p>Women's Health Specialist</p>
 				<a href="http://www.mogamd.com" target="_blank">www.whsobgyn.com</a>
 				<ul class="dr-list">
 					<li>Vanessa Givens, M.D.</li>
